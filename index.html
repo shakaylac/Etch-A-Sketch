@@ -5,24 +5,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Etch-A-Sketch</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="stylesheet/style.css">
 </head>
 
 <body>
   
- <div class="container">
-   <div id="box"></div>
- </div>
+  <div class="sketch">
 
+    <div class="container">
+      <div class="box"></div>
+    </div>
 
+    <label for="number input"><br>Create A New Grid</br></label>
+    <div class="intbnt">
+    <input  type="number" placeholder="ex: 16" name="number" required>
 
-<div class="popup" onclick=popUp()>New Grid<span class="popuptext" id="popup"></span>
-</div>
-  
-  
-      
+    <button class="newgrid">Create</button>
+    </div>
+          
 
-  
+  </div>
   <script src="script.js"></script>
 </body>
 

@@ -11,8 +11,3 @@ boxes.forEach(box => {
   box.addEventListener('click', handleClick);
 });*/
 
-function popUp() {
-    const popup= document.document.getElementById('popup');
-    popup.classList.toggle(show);
-  };
-  

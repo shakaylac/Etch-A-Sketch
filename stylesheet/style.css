@@ -1,10 +1,35 @@
+.sketch {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .container {
-    height: 16cm;
-    width: 16cm;
-    border-color: 3px solid black;
-  }
-  
-  #box {
-    height: 1cm;
-    width: 1cm;
-  }
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+
+.box {
+  background-color: white;
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+
+.intbtn {
+  flex-direction: row;
+}
+
+label{
+  margin-left: 25px;
+}
+
+.newgrid{
+  border: none;
+  background-color: rgb(38, 207, 114);
+  color: white;
+  border-radius: 10px;
+}
+

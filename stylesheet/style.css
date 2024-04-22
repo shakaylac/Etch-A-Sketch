@@ -1,0 +1,10 @@
+.container {
+    height: 16cm;
+    width: 16cm;
+    border-color: 3px solid black;
+  }
+  
+  #box {
+    height: 1cm;
+    width: 1cm;
+  }

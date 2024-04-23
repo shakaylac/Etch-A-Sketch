@@ -1,13 +1,16 @@
-/*const boxes = document.querySelectorAll('box');
-boxes.addEventListener('click', () => {
-  return 'background-color: red';
-});*/
-/*const boxes = document.querySelectorAll('box');
-const handleClick = () => {
-  return 'background-color: red';
-};
+function addDivs() {
+  const usernum = document.getElementById("newnum").value;
+  const container = document.querySelector(".container");
+  container.innerHTML = "";
+  
+  for (let i = 0; i < usernum; i++) {
+    let box = document.createElement("div");
+    box.classList.add("box");
 
-boxes.forEach(box => {
-  box.addEventListener('click', handleClick);
-});*/
+    container.appendChild(box);
+  }
+}
+
+ 
+
 
